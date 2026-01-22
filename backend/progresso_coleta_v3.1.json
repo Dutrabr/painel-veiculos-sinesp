@@ -1,0 +1,27 @@
+{
+  "R7 Rio": {
+    "pagina_atual": 401,
+    "total_coletadas": 3,
+    "total_alternativas": 5
+  },
+  "O Globo Rio": {
+    "pagina_atual": 501,
+    "total_coletadas": 2,
+    "total_alternativas": 2
+  },
+  "UOL Not\u00edcias RJ": {
+    "pagina_atual": 30,
+    "total_coletadas": 0,
+    "total_alternativas": 0
+  },
+  "Extra": {
+    "pagina_atual": 32,
+    "total_coletadas": 20,
+    "total_alternativas": 0
+  },
+  "G1 Rio": {
+    "pagina_atual": 412,
+    "total_coletadas": 181,
+    "total_alternativas": 131
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "expo": {
+    "name": "SafeDrive RJ",
+    "slug": "safedrive-rj",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.safedriverj.app",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "O SafeDrive RJ precisa da sua localização para calcular rotas seguras.",
+        "NSLocationAlwaysUsageDescription": "Permita o acesso à localização para receber alertas de áreas de risco.",
+        "NSCameraUsageDescription": "A câmera é usada para você tirar fotos do local onde estacionou."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.safedriverj.app",
+      "permissions": [
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_BACKGROUND_LOCATION",
+        "CAMERA"
+      ]
+    },
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Permitir o SafeDrive RJ a usar sua localização."
+        }
+      ]
+    ]
+  }
+}
