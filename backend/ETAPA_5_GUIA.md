@@ -57,7 +57,7 @@ pip install beautifulsoup4 lxml googlemaps tweepy schedule
 
 ### Passo 3: Configurar Google Maps API
 
-Você já tem a chave: `AIzaSyDPDFg5ZRqQwo9CNF_t7FqsUKTjlb1zFjE`
+Você já tem a chave: (XXXX)
 
 Ela já está configurada em `geocoding_service.py`! ✅
 
